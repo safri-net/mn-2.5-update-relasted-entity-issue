@@ -88,4 +88,15 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 ```
 
-To reproduce the error just checkout the repo and run it with `./gradlew clean run`.
+To reproduce the error just checkout the repo and run it with: 
+
+```shell
+./gradlew clean run
+```
+
+Checkout the `mn-2.4.x` branch to see that it was working before:
+
+```shell
+git checkout mn-2.4.x
+./gradlew clean run
+```
